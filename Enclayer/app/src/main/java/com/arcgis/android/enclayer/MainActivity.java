@@ -68,7 +68,6 @@ public class MainActivity extends AppCompatActivity {
                     // ENC layer has loaded
                 }else{
                     Log.d(TAG, "failed loadstatus:" + encLayer.getLoadStatus());
-                    Log.d(TAG, "failed error:" + encLayer.getLoadError());
 
                 }
             }
